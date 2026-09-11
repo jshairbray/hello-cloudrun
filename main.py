@@ -4,7 +4,7 @@ from google.cloud import storage
 
 app = Flask(__name__)
 
-BUCKET_NAME = "hello-cloudrun-data-504019"import os
+BUCKET_NAME = "hello-cloudrun-data-504019"
 import datetime
 from flask import Flask, request
 from google.cloud import storage
