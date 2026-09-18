@@ -24,7 +24,7 @@ def hello():
 @app.route("/greet")
 def greet():
     name = request.args.get("name", "friend")
-    return f"Hey there, {name}! Welcome to your second Cloud Run route."
+    return f"Hey there, {name}! 🥸"
     
 @app.route("/bye")
 def bye():
